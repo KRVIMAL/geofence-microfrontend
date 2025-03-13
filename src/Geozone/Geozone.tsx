@@ -82,7 +82,6 @@ const Geozone = () => {
   ]);
   const [edit, setEdit] = useState<boolean>(false);
   const [formField, setFormField] = useState<FormFields>(geoZoneInsertField());
-  const [searchLocationText, setSearchLocationText] = useState<string>("");
   const [collapsed, setCollapsed] = useState<boolean>(false);
   const [activeDrawingTool, setActiveDrawingTool] = useState<string | null>(
     null
